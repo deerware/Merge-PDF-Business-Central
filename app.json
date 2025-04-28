@@ -17,10 +17,9 @@
   "idRanges": [
     {
       "from": 50100,
-      "to": 50149
+      "to": 60000
     }
   ],
   "contextSensitiveHelpUrl": "https://mergepdf.com/help/",
-  "showMyCode": true,
   "runtime": "13.0"
 }

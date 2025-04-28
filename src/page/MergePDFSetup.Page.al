@@ -22,6 +22,26 @@ page 50101 "Merge PDF Setup"
         }
     }
 
+    actions
+    {
+        area(Processing)
+        {
+            action(Test)
+            {
+                ApplicationArea = All;
+                Caption = 'Test';
+                Image = Process;
+
+                trigger OnAction()
+                var
+                    PDFAddin: Page "MJE PDF Daemon";
+                begin
+                    PDFAddin.RunModal();
+                end;
+            }
+        }
+    }
+
     trigger OnOpenPage()
     begin
         if not Rec.Get() then

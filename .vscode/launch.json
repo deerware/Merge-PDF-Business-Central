@@ -2,19 +2,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Microsoft cloud sandbox",
-            "request": "launch",
             "type": "al",
-            "environmentType": "Sandbox",
-            "environmentName": "Sandbox",
-            "startupObjectId": 50148,
-            "startupObjectType": "Page",
+            "request": "launch",
+            "name": "KSMOdev260",
+            "server": "http://172.18.209.241/",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "schemaUpdateMode": "ForceSync",
-            "tenant": "3b32a15e-2987-4cfc-b480-bdaa669d840e"
-        }
+            "tenant": "default",
+        },
     ]
 }
